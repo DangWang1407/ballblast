@@ -60,7 +60,6 @@ public class Meteor : MonoBehaviour
 
     void Die()
     {
-        // Handle the death of the meteor, e.g., play an animation, destroy the object, etc.
         Destroy(gameObject);
     }
 
