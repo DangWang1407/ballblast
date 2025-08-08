@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using System.Collections.Generic;
 
 public class Meteor : MonoBehaviour
 {
@@ -68,3 +69,16 @@ public class Meteor : MonoBehaviour
         textHealth.text = health.ToString();
     }
 }
+
+public class LevelData
+{
+    public List<LevelEnemy> enemies;
+    public float power;
+
+}
+
+public class LevelEnemy
+{
+    public int id;
+    public int number;
+}    
